@@ -16,7 +16,7 @@ export default function ContactPage() {
             key={idx}
             href={link.url}
             target="_blank"
-            rel="noreferer"
+            rel="noreferrer"
             className="text-5xl hover:text-yellow-400"
           >
             {link.icon}
